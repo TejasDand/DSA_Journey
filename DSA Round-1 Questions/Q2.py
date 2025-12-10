@@ -5,5 +5,5 @@ def print_array(arr):
     for e in arr:
         print(e*5)
 
-lst = list(map(int, input("Enter numbers: ").split()))
+lst = [10, 15, 3, 7, 12]
 print_array(lst)
