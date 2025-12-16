@@ -11,6 +11,7 @@ class Solution:
             
             if left == right:
                 return index
+            
             left += num
             # print(left)
         return -1
